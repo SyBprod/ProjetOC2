@@ -1,0 +1,36 @@
+Nous n’aimons jamais vraiment quelqu’un. Nous aimons uniquement l’idée que nous nous faisons de ce quelqu’un. Ce que nous aimons, c’est un concept forgé par nous – et en fin de compte, c’est nous-mêmes. Cela est vrai à tous les degrés de l’amour. Le livre de l'intranquillité de Fernando Pessoa
+.
+
+
+
+
+SyBprod@SyB MINGW64 /c/GIT (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https'
+
+SyBprod@SyB MINGW64 /c/GIT (main)
+$ git add index.html
+fatal: pathspec 'index.html' did not match any files
+
+https://github.com/OpenClassrooms-Student-Center/ProjetOpenSource.git
+"C:\Program Files (x86)\Notepad++\notepad++.exe"
+
+SyBprod@SyB MINGW64 /c/GIT/my_project (cagnotte)
+$ git push -u origin cagnotte
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+git branch -m master main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+
+SyBprod@SyB MINGW64 /c/GIT/test (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/SyBprod/ProjetOC2.git'
+
+
